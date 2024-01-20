@@ -1,7 +1,6 @@
 let numHasta = 1000;
 let cantIntenPermi = 6
 let numeroSecreto = Math.floor(Math.random()*numHasta)+1;
-console.log(numeroSecreto)
 let contadorIntentos = 1;
 let numeroUsuario = 0;
 
