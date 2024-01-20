@@ -3,13 +3,13 @@ let cantIntenPermi = 6
 let numeroSecreto = Math.floor(Math.random()*numHasta)+1;
 let contadorIntentos = 1;
 let numeroUsuario = 0;
-console.log(numeroSecreto);  // BORRAR
 
 while (numeroUsuario != numeroSecreto) {
     numeroUsuario = parseInt(prompt(`Ingresá un número entre 1 y ${numHasta}.`));
 
     if (numeroUsuario==numeroSecreto) {
         alert(`Felicidades! Acertaste al ${numeroSecreto} en ${contadorIntentos} ${(contadorIntentos==1?"intento":"intentos")}`);       
+    
     } else {
 
         if (numeroUsuario<numeroSecreto) {
@@ -17,16 +17,13 @@ while (numeroUsuario != numeroSecreto) {
         } else {
             alert(`No acertaste. El número secreto es menor que ${numeroUsuario}. Te quedan ${cantIntenPermi-contadorIntentos} intentos.`);
         }
-        //BORRAR
-        console.log(contadorIntentos);
+
         contadorIntentos++
+        
         if (contadorIntentos > cantIntenPermi) {
             alert(`Lo siento, superaste la cantidad de ${cantIntenPermi} intentos permitidos`);
             break;
         }
-    
-
     }
-
 }
 
