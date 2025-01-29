@@ -4,7 +4,7 @@
 
 ![Candidato Oracle](https://github.com/Galbickus/1-logica-programacion-1-Aula1/assets/135274833/76bafaca-a9d5-4eac-a8a3-577df0b57449)
 
-![image](https://github.com/Galbickus/1-logica-programacion-1-Aula5/assets/135274833/0c4f6862-1d2d-4c14-a273-f225a89de1d8)
+
 
 
 
